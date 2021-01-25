@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+footer{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(159, 66, 247);
+}
+header{
+   background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('bg.jpg') no-repeat ;
+    height: 80vw;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+   
+    float: right;
+    list-style-type: none ;
+    margin-top: 10px;
+}
+ul li{
+    margin-top: 14px;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: rgb(247, 217, 155);
+    color: rgb(145, 3, 22);
+}
+ul li.active a{
+    background-color: rgb(240, 207, 167);
+    color: rgb(240, 63, 63);
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: rgb(248, 190, 190);
+    font-size: 62px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.button a{
+    color: rgb(170, 235, 255);
+    font-size: 23px;
+    border: 2px solid #fff;
+}
+.btn{
+    border: 1px solid rgb(240, 196, 196);
+    padding: 10px 30px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    color: blue;
+}
